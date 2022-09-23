@@ -1,6 +1,6 @@
 /* Courtesy of chatengine.io template (with personal changes)*/
 
-/* CHAT STYLES */
+/* CHAT STYLES - api's built-in sidebars */
 * {
   font-family: Avenir, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
     Helvetica Neue, Arial, Noto Sans, sans-serif, Apple Color Emoji,
@@ -70,7 +70,7 @@
   display: none !important;
 }
 
-/* CUSTOM FEED */
+/* myCustomFeed */
 
 .chat-feed {
   height: 100%;
