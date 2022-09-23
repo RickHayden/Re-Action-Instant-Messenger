@@ -1,4 +1,4 @@
-/* Courtesy of chatengine.io */
+/* Courtesy of chatengine.io template (with personal changes)*/
 
 /* CHAT STYLES */
 * {
@@ -9,7 +9,7 @@
 }
 
 .ce-chat-list {
-  background-color: rgb(240, 240, 240) !important;
+  background-color: blueviolet !important;
 }
 
 .ce-chats-container {
@@ -32,7 +32,7 @@
 
 .ce-text-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid blueviolet !important;
 }
 
 .ce-primary-button {
@@ -53,12 +53,12 @@
 
 .ce-autocomplete-input {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid blueviolet !important;
 }
 
 .ce-autocomplete-options {
   border-radius: 6px !important;
-  border: 1px solid #3b2a50 !important;
+  border: 1px solid blueviolet !important;
   background-color: white !important;
 }
 
@@ -86,7 +86,7 @@
 }
 
 .chat-title {
-  color: #7554a0;
+  color: #7a47bc;
   font-weight: 800;
   font-size: 24px;
 }
