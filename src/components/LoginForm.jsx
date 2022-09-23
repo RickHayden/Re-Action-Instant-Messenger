@@ -11,6 +11,7 @@ const LoginForm = () => {
 
         const authObject = { 'Project-ID': '1f512ebe-c21c-4249-8510-db906252e132', 'User-Name': username, 'User-Secret': password}
 
+        // Set username and pw to localstorage when entered correctly to login
         try {
            await axios.get('https://api.chatengine.io/chats', { headers: authObject});
 
@@ -24,6 +25,7 @@ const LoginForm = () => {
 
     }
     
+    // inputs & button
     return(
         <div className="wrapper">
             <div className="form">

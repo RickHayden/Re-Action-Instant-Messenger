@@ -48,9 +48,10 @@ const renderMessages = () => {
     })
 
 }
-
+// display message if/when chat data is loading
 if(!chat) return 'Loading...';
 
+// display everything declared
 return (
      <div className="chat-feed">
         <div className="chat-title-container">
